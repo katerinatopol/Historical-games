@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sitebar {
+  min-width: 1100px;
+  max-width: 1920px;
+  padding-top: 13px;
+  margin: 0 auto;
+
+  height: 712.5px;
+  background: url(img/site-bar.jpg);
+}
+.nav-line {
+  width: 100%;
+  height: 83px;
+  opacity: 0.5;
+  background-color: #000000;
+  display: table;
+}
+
+.nav-line > div {
+  display: inline-block;
+  margin: 0 auto;
+  display: table-cell;
+}
+
+/*.nav-line-img {
+  margin-right: 20px;
+}*/
+
+.vertical {
+  vertical-align: middle;
+}
+
+.name {
+  padding-left: 15%;
+}
+
+.name-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.name-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: 2em;
+  color: #ffffff;
+}
+
+/*.contact-1 {
+  vertical-align: middle;
+}*/
+
+.telephon {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16.7px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+/*.contact-2 {
+  vertical-align: middle;
+}*/
+
+.email {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16.7px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.search {
+  width: 208px;
+  height: 38px;
+  border: 1px solid #ffffff;
+  padding-left: 20px;
+  /*padding-top: 20px;*/
+  display: flex;
+}
+
+.search a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16.7px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 105px;
+  margin-top: 10px;
+}
+
+.search div {
+  width: 1px;
+  height: 38px;
+  border-left: 1px solid #ffffff;
+  padding-left: 22px;
+}
+
+.search1 {
+  padding-right: 15%;
+}
+
+.search img {
+  position: relative;
+  right: 5px;
+  top: 7px;
+}
+
+.sitebar-content {
+  padding-left: 64px;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 34px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 5px;
+  list-style-type: None;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.menu li a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16.7px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+#active {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16.7px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.hr1 {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: none;
+  height: 1px;
+  opacity: 0.5;
+}
+
+h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 115px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.hr2 {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: none;
+  height: 1px;
+  opacity: 0.5;
+  width: 90px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  line-height: 48px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 56px;
+  text-align: center;
+}
+
+.social-block {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.social {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+}
+
+.social img {
+  position: relative;
+  top: 10px;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #f44336;
+}
+
+.about-us {
+  margin: 0 auto;
+}
+
+.about-us p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  color: #999999;
+  margin-top: 35px;
+}
+
+.about-us div {
+  width: 540px;
+  height: 338px;
+}
+
+.about-us img {
+  width: 540px;
+  height: 338px;
+  float: right;
+  margin-left: 33px;
+}
