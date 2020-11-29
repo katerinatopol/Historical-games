@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Gallery</title>
+</head>
+<body>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -17,7 +24,7 @@
                 document.body.classList.remove('loaded_hiding');
             }, 500);
         }
-    </script>    
+    </script>
     <title>Contact Us</title>
 </head>
 <body>
@@ -27,7 +34,7 @@
             <div class="preloader__item"></div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-gallery">
         <a href="#" class="arrow"><img src="img/arrow.png" alt="arrow"></a>
         <!-- Верхний блок -->
         <div class="sitebar-contact">
@@ -40,7 +47,7 @@
                 </div>
                 <div class="vertical nav-line-img"><img src="img/tel_76.png" alt="tel"></div>
                 <div class="vertical"><a class="telephon" href="tel:1234567890">+123 456 7890</a></div>
-    
+
                 <div class="vertical"><img src="img/email.png" alt="email"></div>
                 <div class="vertical"><a class="email" href="mailto:info@example.com">info@example.com</a></div>
                 <div class="search1 vertical">
@@ -51,27 +58,95 @@
                                 <button><img src="img/search.png" alt="Search"></button>
                             </form>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </div>
-            <!--Menu-->    
+            <!--Menu-->
             <div class="sitebar-content">
                 <div class="menu-contact">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a id="active-2" href="gallery.html">Gallery</a></li>
                         <li><a href="#">News</a></li>
                         <li><a href="#">Team</a></li>
-                        <li><a id="active-2" href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
-        </div>   
-        <!--Contacts-->
-        <div class="about-us-contact">
-           
+        </div>
+
+        <!-- Our Gallery -->
+        <h2 style="margin-top: 95px;">Our Gallery</h2>
+        <div class="our-gallery margin-gallery">
+            <div>
+                <img src="img/battle1.png" alt="battlefield 1">
+                <span>battlefield 1</span>
+                <a href="#"><div class="buy">Buy</div></a>
+            </div>
+            <div>
+                <img src="img/battle2.png" alt="star wars: Battlefront II">
+                <span>star wars: </span><span class="name-game">Battlefront II</span>
+                <a href="#"><div class="buy buy-new">Buy</div></a>
+            </div>
+            <div>
+                <img src="img/battle4.png" alt="BATTLEFIELD 4">
+                <span>BATTLEFIELD 4</span>
+                <a href="#"><div class="buy">Buy</div></a>
+            </div>
+            <div>
+                <img src="img/WoT.png" alt="world of tanks">
+                <span>world of tanks</span>
+                <a href="#"><div class="buy">Buy</div></a>
+            </div>
+        </div>
+        <div class="our-gallery margin-gallery">
+            <div>
+                <img src="img/assassin.png" alt="assassin">
+                <span>assassin’s creed: </span><span class="name-game">Rogue</span>
+                <a href="assasin's_creed.html"><div class="buy buy-new">Buy</div></a>
+            </div>
+            <div>
+                <img src="img/honor.png" alt="for honor">
+                <span>for honor</span>
+                <a href="#"><div class="buy">Buy</div></a>
+            </div>
+            <div>
+                <img src="img/WoW.png" alt="world of warships">
+                <span>world of warships</span>
+                <a href="#"><div class="buy">Buy</div></a>
+            </div>
+            <div>
+                <img src="img/CoD.png" alt="call of duty">
+                <span>call of duty:</span><span class="name-game">Infinite Warface</span>
+                <a href="#"><div class="buy buy-new">Buy</div></a>
+            </div>
+        </div>
+
+    <!--More games-->
+        <a href="#"><div class="more-games">
+            Show more games >
+        </div></a>
+
+    <!-- Buy discount -->
+        <div class="discount">
+            <div class="discount1">
+                <span class="discount-span">discount</span>
+                <p class="discount-games">CALL OF DUTY: <br>Modern Warfare 3</p>
+                <span class="discount-price">$14.44 </span><span class="discount-price2">/ $28.90</span>
+                <a href="#"><div class="buy-discount">Buy</div></a>
+            </div>
+            <div class="discount2">
+                <span class="discount-span">discount</span>
+                <p class="discount-games">MEDAL OF HONOR</p>
+                <span class="discount-price">$15.96 </span><span class="discount-price2">/ $29.99</span>
+                <a href="#"><div class="buy-discount">Buy</div></a>
+            </div>
+        </div>
+    <!--Contacts-->
+        <div class="about-us-contact-2">
+
             <h2>Contact Us</h2>
             <div class="contacts-us-2">
                 <div class="contacts-2">
@@ -94,10 +169,10 @@
                     <input type="text" placeholder="Email"><br>
                     <textarea rows="10" cols="45" name="text" placeholder="Message"></textarea><br>
                     <input type="submit" value="SUBMIT" name="send">
-            
+
                 </form>
             </div>
-        </div> 
+        </div>
         <!-- Карта -->
         <div class="route-map">
             <h2>Route Map</h2>
@@ -106,10 +181,10 @@
                 width="1169" height="298" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe>
         </div>
-        
+
         <div class="clr"></div>
         </div>
-    </div> 
+    </div>
     <!--Footer -->
     <div class="footer">
         <span>&copy; 2017 Historical Games. All rights reserved | Design by </span><span id="footer">W3layouts</span>
